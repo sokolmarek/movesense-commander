@@ -1,0 +1,33 @@
+The SBEM test fixtures in this directory are derived from the test data in
+Movesense's sbem-tools project (https://bitbucket.org/movesense/sbem-tools),
+and the accompanying .expected.json files were produced by that project's
+sbem2json converter.
+
+imu9-prefix.sbem is the header, the descriptor chunks and the first 40 data
+chunks of that project's tests/test_1.sbem.
+
+sbem-tools is MIT licensed, and its notice follows.
+
+---
+
+MIT License
+
+Copyright (c) 2026 Petri Lipponen, Movesense Ltd
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

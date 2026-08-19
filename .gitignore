@@ -1,0 +1,24 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.DS_Store
+.vite/
+coverage/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Upstream Movesense reference clones. Local-only: they are read-only study
+# material, not part of this project. Clone them yourself if you need them:
+#   git clone https://bitbucket.org/movesense/python-datalogger-tool.git
+#   git clone https://bitbucket.org/movesense/sbem-tools.git
+examples/
+
+# Planning notes and agent guidance, kept local.
+PLAN.md
+CLAUDE.md
+# AGENTS.md only points at CLAUDE.md, so it is local too.
+AGENTS.md
